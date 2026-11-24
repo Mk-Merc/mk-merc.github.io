@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Steam-inspired Theme */
+@theme {
+	--color-steam-bg: oklch(27.28% 0.0349 254.06);
+	--color-steam-panel: oklch(24.04% 0.0289 255.24);
+	--color-steam-dark: oklch(21.78% 0.0145 266.91);
+	--color-steam-blue: oklch(77.25% 0.1140 236.18);
+	--color-steam-text: oklch(86.26% 0.0215 241.39);
+}
+
+body {
+	background-color: var(--color-steam-bg);
+	color: var(--color-steam-text);
+	font-family: var(--font-sans);
+}
